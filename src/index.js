@@ -6,7 +6,7 @@ class Main extends React.Component {
   render() {
     return (
       <div className="main">
-        Hello,World
+        Hello new branch
       </div>
     )
   }
