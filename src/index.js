@@ -3,29 +3,31 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Button from '@material-ui/core/Button';
 
+class LayerOver extends React.Component {
+  render() {
+    return (
+      <div>
+        Hello
+      </div>
+    )
+  }
+}
+
 class LayerUnder extends React.Component {
   render() {
     return (
       <div>
-        {this.props.value}
+        <LayerOver/>
       </div>
     )
   }
 }
 
 class Main extends React.Component {
-  renderLayerUnder(i) {
-    return (
-        <LayerUnder value={i}/>
-    )
-  }
   render() {
     return (
-      <div>
-        {this.renderLayerUnder(1234253346457)}
-      <Button variant="contained" color="primary">
-        Hello World
-      </Button>
+      <div className="LayerUnder">
+        <LayerUnder/>
       </div>
     )
   }
