@@ -1,19 +1,18 @@
+.Main {
+	background-color: #4caf50;
+	width: 100%;
+}
+
 .LayerUnder {
 	background-color: #4caf50;
 	width: 100%;
 }
 
-.LayerOverLeft {
-	background-color: #4caf50;
-	width: 50%;
+.LayerMiddleTitle {
+    font-weight: bold;
 }
 
-.LayerOverRight {
-	background-color: #4caf50;
-	width: 50%;
-}
-
-.OuterLayerOver {
-	display: flex;
-	flex-direction: column;
+.LayerSmallTitle {
+  padding-left: 1em;
+  word-wrap:break-word;
 }

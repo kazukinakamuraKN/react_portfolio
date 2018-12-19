@@ -3,21 +3,23 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Button from '@material-ui/core/Button';
 
-class LayerOverLeft extends React.Component {
-  render() {
-    return (
-      <div>
-        hello
-      </div>
-    )
-  }
-}
 
-class LayerOverRight extends React.Component {
+
+class LayerOverKihonjouhou extends React.Component {
   render() {
     return (
-      <div>
-        hello
+      <div className="LayerOver">
+        <h2>
+          <div className="LayerLargeTitle">
+            基本情報
+          </div>
+        </h2>
+        <div className="LayerMiddleTitle">
+          名前
+        </div>
+        <div className="LayerSmallTitle">
+          中村一貴aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+        </div>
       </div>
     )
   }
@@ -26,13 +28,8 @@ class LayerOverRight extends React.Component {
 class LayerUnder extends React.Component {
   render() {
     return (
-      <div className="OuterLayerOver">
-        <div className="LayerOverLeft">
-          <LayerOverLeft/>
-        </div>
-        <div className="LayerOverRight">
-          <LayerOverRight/>
-        </div>
+      <div className="LayerUnder">
+        <LayerOverKihonjouhou/>
       </div>
     )
   }
@@ -41,7 +38,7 @@ class LayerUnder extends React.Component {
 class Main extends React.Component {
   render() {
     return (
-      <div className="LayerUnder">
+      <div className="Main">
         <LayerUnder/>
       </div>
     )
