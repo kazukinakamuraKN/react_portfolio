@@ -1,18 +1,20 @@
 .Main {
-	background-color: #4caf50;
-	width: 100%;
+  width: 100%;
 }
 
 .LayerUnder {
-	background-color: #4caf50;
-	width: 100%;
+  width: 100%;
+}
+
+.LayerLargeTitle {
+  font: #ffff;
 }
 
 .LayerMiddleTitle {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .LayerSmallTitle {
   padding-left: 1em;
-  word-wrap:break-word;
+  word-wrap: break-word;
 }

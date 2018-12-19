@@ -10,15 +10,15 @@ class LayerOverKihonjouhou extends React.Component {
     return (
       <div className="LayerOver">
         <h2>
-          <div className="LayerLargeTitle">
+          <p className="LayerLargeTitle">
             基本情報
-          </div>
+          </p>
         </h2>
         <div className="LayerMiddleTitle">
           名前
         </div>
         <div className="LayerSmallTitle">
-          中村一貴aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+          中村一貴
         </div>
       </div>
     )
