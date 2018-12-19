@@ -1,12 +1,19 @@
-.color {
-	width: 100%;
-	background-color: "blue";
-}
-
-div {
-	
-}
-
 .LayerUnder {
 	background-color: #4caf50;
+	width: 100%;
+}
+
+.LayerOverLeft {
+	background-color: #4caf50;
+	width: 50%;
+}
+
+.LayerOverRight {
+	background-color: #4caf50;
+	width: 50%;
+}
+
+.OuterLayerOver {
+	display: flex;
+	flex-direction: column;
 }
