@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Icon from '@material-ui/core/Icon';
 
 class LayerOverKihonjouhou extends React.Component {
   render() {
@@ -49,7 +50,7 @@ class LayerOverSkill extends React.Component {
         <div>
           <ul>
             <li>
-            実務で資材管理システムの詳細設計の修正,
+            実務で資材管理システムの詳細設計の修正
             </li>
             <li>
             証券システムの設計書の修正、実装、単体テストを行ってきた
@@ -72,16 +73,25 @@ class LayerOverSkill extends React.Component {
         <div>
           <ul>
             <li>
-              LineBotを作成。筋トレに役立つカロリー計算をしてくれる
+              JavaScriptとHerokuを使用してLineBotを作成。筋トレに役立つカロリー計算をしてくれる
+              <a target="_blank" href="https://github.com/kazukinakamuraKN/Linebot_Node.js_macro-app">
+                <Icon>link</Icon>
+              </a>
             </li>
             <li>
-              Vue.jsを用いて、見た目重視のポートフォリオを、このポートフォリオとは別に作成
+              Vue.jsとGithubPagesを使った、clickで色が変わるポートフォリオを、このポートフォリオとは別に作成
+              <a target="_blank" href="https://kazukinakamurakn.github.io/portfolio/#/">
+                <Icon>link</Icon>
+              </a>
             </li>
             <li>
-              Vue.jsを用いて、リアルタイム反映できるMarkDownエディタの作成
+              Vue.jsとfirebaseで、リアルタイム反映できるMarkDownエディタの作成
+              <a target="_blank" href="https://mymarkdown2-7b0a7.firebaseapp.com/#/">
+                <Icon>link</Icon>
+              </a>
             </li>
             <li>
-              React.jsを用いて、このポートフォリオを作成
+              React.jsとfirebaseを用いて、このポートフォリオを作成
             </li>
           </ul>
         </div>
@@ -91,10 +101,16 @@ class LayerOverSkill extends React.Component {
         <div>
           <ul>
             <li>
-              筋トレに役立つ、カロリー計算を行うプログラムを作成
+              RubyとHerokuで筋トレに役立つ、カロリー計算を行うプログラムを作成
+              <a target="_blank" href="https://macro-manage-app.herokuapp.com/">
+                <Icon>link</Icon>
+              </a>
             </li>
             <li>
               RubyOnRailsTutorialを完了
+              <a target="_blank" href="https://gentle-waters-14409.herokuapp.com/">
+                <Icon>link</Icon>
+              </a>
             </li>
           </ul>
         </div>
