@@ -30,6 +30,15 @@ class LayerOverKihonjouhou extends React.Component {
         <div className="LayerSmallTitle">
           筋トレ
         </div>
+        <div className="LayerMiddleTitle">
+          SNS
+        </div>
+        <div className="LayerSmallTitle">
+          Github
+          <a target="_blank" href="https://github.com/kazukinakamuraKN">
+            <Icon>link</Icon>
+          </a>
+        </div>
       </div>
     )
   }
