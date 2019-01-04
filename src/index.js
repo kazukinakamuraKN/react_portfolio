@@ -100,7 +100,22 @@ class LayerOverSkill extends React.Component {
               </a>
             </li>
             <li>
+              reactとfirebaseで、サインイン、サインアウト、サインアップのテスト
+              <a target="_blank" href="https://react-login-project-82ae2.firebaseapp.com/">
+                <Icon>link</Icon>
+              </a>
+            </li>
+            <li>
+              reactとfirebaseとfirestoreとmaterial-uiで、タスクリストを作成
+              <a target="_blank" href="https://react-chat-ace60.firebaseapp.com/">
+                <Icon>link</Icon>
+              </a>
+            </li>
+            <li>
               React.jsとfirebaseを用いて、このポートフォリオを作成
+              <a target="_blank" href="https://react-portfolio-f109f.firebaseapp.com/">
+                <Icon>link</Icon>
+              </a>
             </li>
           </ul>
         </div>
